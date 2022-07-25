@@ -32,14 +32,17 @@ function getCharacter() {
 
 	character = characters[Math.floor(Math.random() * characters.length)]
 
-	main_img.style.backgroundImage = `url('/images/${character.name.replace(" ", "-")}.png`
+	main_img.style.backgroundImage = `url('./images/${character.name.replace(" ", "-")}.png`
 }
 
 main_img.oncontextmenu = function() {
 	return false
 }
 
-getCharacter()
+document.addEventListener("DOMContentLoaded", () => {
+	getCharacter()
+})
+
 
 guess_button.onmouseup = function() {
 	let guess = guess_input.value
