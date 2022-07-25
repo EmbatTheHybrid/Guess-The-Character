@@ -25,8 +25,17 @@ export const characters = [
 	new Character("Sakura", []),
 	new Character("Kiri", []),
 	new Character("BMO", []),
+	new Character("Mario", []),
+	new Character("Luigi", []),
+	new Character("Nero", []),
+	new Character("Whitesnake", []),
 
 	// With more answers
+	new Character("Jotaro-Kujo", ["Jotaro"]),
+	new Character("Kiryu", ["Kazuma Kiryu"]),
+	new Character("Fischl", ["Fischl von Luftschloss Narfidort"]),
+	new Character("Excelsus", ["Metal Gear Excelsus"]),
+	new Character("Jetstream-Sam", ["Samuel Rodriguez", "Minuano"]),
 	new Character("Senko", ["Senko-San", "Senko san"]),
 	new Character("Bart", ["Bart Simpson"]),
 	new Character("Homer", ["Homer Simpson"]),
