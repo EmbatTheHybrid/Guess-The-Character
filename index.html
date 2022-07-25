@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Guess the character</title>
+	</head>
+	<body>
+		
+
+
+		<!-- Hero section -->
+		<div class="main">
+			<div class="main__container" id="index_container">
+				<!-- Title -->
+				<h1 class="title">Guess the Character</h1>
+				<div id="main__stuff">
+					<div class="information">
+						<h2 id="highscore">High score: 0</h2>
+						<h2 id="score">Score: 0</h2>
+					</div>
+					<div class="status">
+						<h2 id="top-status">Enter your guess for this character</h2>
+						<h2 id="bottom-status">There can be more than 1 answer</h2>
+					</div>
+					<div id="main__img"></div>
+					<div class="guess__div">
+						<input class="guess__input" placeholder="Enter your guess...">
+						<button class="guess">Guess</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="./Character.js"></script> 
+		<script type="module" src="./app.js"></script> 
+	</body>
+</html>

@@ -1,0 +1,28 @@
+import { Character } from './Character.js'
+
+export const characters = [
+	new Character("Bart", ["Bart Simpson"]),
+	new Character("Homer", ["Homer Simpson"]),
+	new Character("Armstrong", ["Senator Armstrong", "Steven Armstrong"]),
+	new Character("Peter-Griffin", ["Peter"]),
+	new Character("Lois", ["Lois Griffin"]),
+	new Character("Brian", ["Brian Griffin"]),
+	new Character("Mistral", []),
+	new Character("Monsoon", []),
+	new Character("Boris", ["Boris Popov", "Boris Vyacheslavovich Popov"]),
+	new Character("Raiden", ["Jack", "Jack The Ripper"]),
+	new Character("Chudd", ["Chudd Chudders"]),
+	new Character("Collei", []),
+	new Character("Doraemon", []),
+	new Character("Dori", []),
+	new Character("Ganyu", []),
+	new Character("Jenny", ["Jennifer", "Jenny Wakeman", "Jennifer Wakeman"]),
+	new Character("Johnny-Bravo", []),
+	new Character("Kitty-Katswell", ["Kitty"]),
+	new Character("Sandy-Cheeks", ["Sandy"]),
+	new Character("Teppei", []),
+	new Character("Tighnari", []),
+	new Character("Venti", []),
+	new Character("Yae-Miko", []),
+	new Character("Yelan", []),
+]
