@@ -23,4 +23,4 @@ export class Character {
 
 	get name() { return this.#name }
 	get names() { return this.#names }
-}#
+}
