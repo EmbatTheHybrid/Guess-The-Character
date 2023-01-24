@@ -14,7 +14,7 @@ const score = document.getElementById("score")
 let currentScore = 0
 let highScore = 0
 
-let character
+let character = ""
 
 function setScore(newScore) {
 	currentScore = newScore
